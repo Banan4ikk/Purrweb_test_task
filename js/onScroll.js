@@ -1,5 +1,5 @@
 ((window,document) => {
-   window.onload = () => {
+   window.addEventListener('load',  () => {
       const missionBlock = document.getElementById('mission_block');
       const missionText = document.getElementById('mission_text');
       const missionImg = document.getElementById('mission_img');
@@ -24,6 +24,6 @@
       );
 
       observer.observe(missionBlock);
-   }
+   })
 })(window, document, undefined)
 

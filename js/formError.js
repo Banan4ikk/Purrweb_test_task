@@ -1,5 +1,5 @@
 ((window, document) => {
-   window.onload = () => {
+   window.addEventListener('load', () => {
       let form = document.getElementById('form');
       const formItems = document.querySelectorAll('input, textarea')
 
@@ -13,5 +13,5 @@
             }
          }
       })
-   }
+   })
 })(window, document, undefined)
