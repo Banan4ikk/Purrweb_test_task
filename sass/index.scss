@@ -227,10 +227,13 @@ body {
       color: #fff;
       justify-content: space-evenly;
       align-items: center;
+      padding: 70px 0 17px 0;
 
       .mission__img {
-        transform: translateX(-100%);
         width: 600px;
+        img{
+          transform: translateX(-100%);
+        }
       }
 
       .mission__text {

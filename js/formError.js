@@ -13,6 +13,5 @@
             }
          }
       })
-
    }
 })(window, document, undefined)

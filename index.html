@@ -1,5 +1,5 @@
-<!DOCTYPE html lang="en">
-<html>
+<!DOCTYPE html >
+<html lang="en">
 
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -9,8 +9,10 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
 
     <title>This is just a bomb</title>
-    <script src="/js/formError.js"></script>
-    <script src="/js/cookiesAlert.js"></script>
+<!--    <script src="/js/formError.js"></script>-->
+<!--    <script src="/js/onScroll.js"></script>-->
+    <script src="/js/mainScript.js"></script>
+
 </head>
 
 <body>
@@ -98,11 +100,11 @@
             </div>
         </div>
 
-        <div class="mission">
+        <div class="mission" id="mission_block" style="overflow: hidden">
             <div class="mission__img">
-                <img src="img/phone90.png" alt="">
+                <img src="img/phone90.png" id = "mission_img" alt="">
             </div>
-            <div class="mission__text">
+            <div class="mission__text" id = "mission_text">
                 <h1>Our mission and vision</h1>
                 <p>While technology is our sweet spot, we’ve developed our vision alongside
                     our customers to ensure your everyday problems are solved through simplistic tools. And as your
@@ -112,7 +114,7 @@
 
 
         <div class="back">
-            <img src="/img/bar.png" alt=""></img>
+            <img src="/img/bar.png" alt=""/>
             <div class="gradient"></div>
         </div>
 
