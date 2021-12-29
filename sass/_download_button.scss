@@ -1,0 +1,47 @@
+.download__button {
+    justify-content: space-around;
+    display: flex;
+    width: 500px;
+
+    button {
+      display: flex;
+      flex-direction: row;
+      width: 220px;
+      height: 60px;
+      background: none;
+      border: 1px solid #ffffff;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      cursor: auto;
+
+      img {
+        width: auto;
+        margin: auto;
+      }
+
+      .button_text {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        img{
+            float: right;
+        }
+        h3 {
+
+          font-size: 2em;
+          margin: 0;
+          font-weight: normal;
+        }
+        p {
+            text-transform: uppercase;
+          font-size: 12px;
+          margin: 0;
+        }
+      }
+    }
+    button:hover {
+      opacity: 0.8;
+    }
+  }
